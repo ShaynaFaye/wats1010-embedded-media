@@ -5,6 +5,156 @@
  * Site Styles
  *****************************************************************************/
 
- html {
-     color: green;
- }
+body {
+   	background-color: #D4F561;
+	color: #262730;
+	padding-left: 75px;
+    padding-right: 75px;
+	margin: 0;
+	}
+header {
+	background-image: url(../img/monkaa_title.jpg);
+	background-repeat: no-repeat;  
+	background-position: center center;
+	background-size: cover;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	border-radius: 25px;
+    border: 4px solid; 
+	border-color: #3F2A9E;
+    padding: 20px; 
+    min-width: 950px;
+    height: 400px; 
+	margin-right: 120px;
+	margin-top: 25px;
+}
+#header {
+	text-align: center;
+	padding-top: 300px;
+	padding-bottom: 0;
+	}
+h1, h3, h4, h5, h6 {
+	font-family: 'Helvetica Inserat';
+	color: #3F2A9E;
+	font-weight: bold;
+	}
+h2 {
+	font-family: 'Helvetica Inserat';
+	color: #3F2A9E;
+	font-weight: bold;
+	text-shadow: 2px 2px 8px #B619C6;
+}
+a:link {
+    color: #3F2A9E;
+}
+a:active {
+	font-weight: bold;
+}
+a:visited {
+    color: #2E1F71;
+}
+a:hover {
+    color: #B619C6;
+	font-size: 150%;	
+}
+nav ul {
+	text-align: center;
+	clear: both;
+	padding-top: 0;
+	padding-bottom: 25px;
+	}
+nav ul li {
+	display: inline;
+	padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+	font-family: 'Helvetica Inserat';
+	}
+ul li {
+    list-style-type: none;
+}
+.link {
+	background-color: #FFFC7C;
+	border-radius: 25px;
+    border: 2px solid; 
+	border-color: #3F2A9E;
+	padding-left: 20px;
+    padding-right: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+aside {
+  position: fixed;
+  bottom: 400px;
+  right: 20px;
+  width: 120px;
+  background-color: #FFFC7C;
+	border-radius: 25px;
+    border: 4px solid; 
+	border-color: #3F2A9E;
+	text-align: center;
+}
+.social-links {
+	text-align: left;
+	padding-left: 5px;	
+}
+hr {
+ 	margin-top: 3px;
+    margin-bottom: 3px;
+	margin-right: 120px;
+	height: 4px;
+	background-color: #3F2A9E;
+}
+section {
+	margin-right: 150px;
+}
+.video {
+	max-width: 800px;
+	border-radius: 25px;
+    border: 4px solid; 
+	border-color: #3F2A9E;
+    padding: 20px; 
+	background-color: #FFFC7C;
+	margin-right: 120px;
+}
+#lead {
+	font-size: large;
+	font-family: 'Helvetica Inserat';
+	font-style: italic;
+}
+.first-word {
+	font-weight: bold;
+	font-size: 150%;
+	color: #B619C6;
+	text-shadow: 2px 2px 8px #3F2A9E;
+}
+.zoom {
+	max-width: 600px;
+	margin-right: 120px;
+}
+.caption {
+	font-family: 'Helvetica Inserat';
+	font-style: italic;
+}
+.weybec-people li {
+	display: inline-block;
+	text-align: center;
+	padding-right: 10px;
+}
+.headshot {
+	max-width: 200px;
+	border-radius: 25px;
+    border: 4px solid; 
+	border-color: #3F2A9E;
+}
+footer {
+	border-radius: 25px;
+    border: 4px solid; 
+	border-color: #3F2A9E;
+    padding: 20px; 
+    min-width: 950px;
+    height: 100px; 
+	margin-right: 120px;
+	margin-bottom: 25px;
+	text-align: center;
+}
