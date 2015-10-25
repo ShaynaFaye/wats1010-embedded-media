@@ -33,12 +33,12 @@ header {
 	padding-top: 300px;
 	padding-bottom: 0;
 	}
-h1, h3, h4, h5, h6 {
+h3, h4, h5, h6 {
 	font-family: 'Helvetica Inserat';
 	color: #3F2A9E;
 	font-weight: bold;
 	}
-h2 {
+h1, h2 {
 	font-family: 'Helvetica Inserat';
 	color: #3F2A9E;
 	font-weight: bold;
@@ -117,6 +117,17 @@ section {
 	background-color: #FFFC7C;
 	margin-right: 120px;
 }
+.monkey-hang {
+	max-width: 600px;
+	margin-right: 120px;
+	border-radius: 25px;
+    border: 2px solid; 
+	border-color: #3F2A9E;
+}
+.caption1 {
+	font-family: 'Helvetica Inserat';
+	font-style: italic;
+}
 #lead {
 	font-size: large;
 	font-family: 'Helvetica Inserat';
@@ -131,8 +142,11 @@ section {
 .zoom {
 	max-width: 600px;
 	margin-right: 120px;
+	border-radius: 25px;
+    border: 2px solid; 
+	border-color: #3F2A9E;
 }
-.caption {
+.caption2 {
 	font-family: 'Helvetica Inserat';
 	font-style: italic;
 }
